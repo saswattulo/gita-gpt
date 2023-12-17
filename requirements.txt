@@ -1,0 +1,5 @@
+cassandra-driver
+cassio
+llama-index
+pypdf
+tiktoken==0.4.0

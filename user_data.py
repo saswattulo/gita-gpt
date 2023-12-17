@@ -1,0 +1,2 @@
+GRADIENT_ACCESS_TOKEN='sevG6Rqb0ztaquM4xjr83SBNSYj91cux'
+GRADIENT_WORKSPACE_ID='4de36c1f-5ee6-41da-8f95-9d2fb1ded33a_workspace'
