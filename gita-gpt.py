@@ -86,7 +86,16 @@ index = VectorStoreIndex.from_documents(documents,
                                         service_context=service_context)
 query_engine = index.as_query_engine()
 
-while(1){response = query_engine.query("How does the Gita advise individuals to maintain equanimity in the face of challenges and adversity?")
-print(response)}
+
+
+def main():
+    st.title("Gita-GPT")
+
+    # Add some widgets to the app
+    user_input=st.text_input('Enter your question')
+    if user_input:
+        response = query_engine.query(user_input)
+        st.write(response)
+
 
 
