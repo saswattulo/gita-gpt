@@ -1,11 +1,11 @@
 #installing all required libraries
 
-!pip install -q cassandra-driver
+'''!pip install -q cassandra-driver
 !pip install -q cassio>=0.1.1
 !pip install -q --upgrade
 !pip install -q llama-index
 !pip install -q pypdf
-!pip install -q tiktoken==0.4.0
+!pip install -q tiktoken==0.4.0 '''
 
 
 #importing all required libraries
